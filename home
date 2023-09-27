@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cometa Bank</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+    <header>
+        <div id="logo">
+            <h1>Cometa Bank</h1>
+        </div>
+        <nav>
+            <a href="#">Portfólio</a>
+            <a href="#">Voltar para o GitHub</a>
+            
+        </nav>
+        <nav id="botton-login">
+            <a href="#" >Criar conta</a>
+            <a href="#">Logar</a>
+        </nav>
+    </header>
+
+   
+    <main></main>
+    <footer></footer>
+    
+</body>
+</html>
