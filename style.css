@@ -1,21 +1,22 @@
 @charset "UTF-8";
 :root{
-    --cor001:#0D0D0D;
-    --cor002:#404040;
+    --cor001:#0f44f3;
+    --cor002:#00030D;
+    --cor003:#fbfbfb;
 }
 
 
 body{
+    color:var(--cor001);
 
-    background-color: var(--cor001);
     font-family: 'Times New Roman', Times, serif;
 }
 header{
+    color: var(--cor001);
     background-color:var(--cor002);
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: -21px;
-    padding-bottom: 37px;
+    margin-top: -21px;   
 }
 #logo{
     width: 112px;
@@ -24,26 +25,32 @@ header{
 
 nav{
     width: 500px;
-    padding-left: 200px;
-    margin-top: -48px;
+    padding-left: 200px;    float: right;
+    
+    
 }
 #botton-login{
-    float: right;
-    height: 69px;
-    width: 250px;
-    padding-top: -2px;
+    font-size: x-large;
+    text-align: left;
     margin-top: -70px;
-    padding-left: 306px;
-    margin-bottom: 17px;
-        
-
+    margin-bottom: 0px;
+    width: 231px
 }
 
 nav> a{ 
-    color:rgba(0, 255, 255, 0.589);
-    padding: 10px
+   color: var(--cor001);
+    
+    padding: 10px;
+    width: 300px;
+    text-decoration:  dashed;
+    
+ 
+
+    
 }
 nav> a:hover{
-    background-color: #0D0D0D;
-    display: flexbox;
+   
+    background-color:var(--cor003);
+    border-radius: 5px;
+   
 }
