@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root{
     --cor0:#202022;
-    --cor001:#f30ae0;
+    --cor001:#e30d0d;
     --cor002:#00030D;
     --cor003:#fbfbfb;
 }
@@ -83,15 +83,36 @@ nav>a:hover{
     animation-duration: 1s; 
 }
 main{
-    color: var(--cor003);
+    
+    color: var(--cor002);
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    
+
 }
 section{
-    padding-top: 20vh;
+    background-position: center ;
+    color:var(--cor003);
+    padding-top: 18vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px; 
+    border-radius: 5px;
+    text-shadow: 2px 1px 20px black;
 }
-
+section > div{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #202022b8;
+    width: 300px;
+}
 section.imagem{
     background-color:var(--cor0);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+section#img01{
+    background-image: url('imagens/foto1.png');
+   
 }
