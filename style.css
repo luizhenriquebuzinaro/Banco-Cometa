@@ -6,7 +6,10 @@
     --cor003:#fbfbfb;
 }
 
-
+*{
+    margin-right: -8px;
+    margin-left: -5px;
+}
 body{    background-image: linear-gradient(to right, #14140F,#313333,#242525);
 
     
@@ -83,7 +86,7 @@ nav>a:hover{
     animation-duration: 1s; 
 }
 main{
-    
+    margin: 0px;
     color: var(--cor002);
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -99,8 +102,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px; 
-    margin-right: -8px;
-    margin-left: -5px;
+  
     text-shadow: 2px 1px 20px black;
 
 }
@@ -135,10 +137,11 @@ section#img01{
 }
 section#img02{
     background-image: url('imagens/foto2.png');
-
+    
 }
 
 footer{
+  
     color: var(--cor001);
     text-align: right;
     font-family: 'Times New Roman', Times, serif;
