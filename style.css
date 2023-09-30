@@ -2,14 +2,16 @@
 :root{
     --cor0:#202022;
     --cor001:#D300F0;
-    --cor002:#00030df8;
+    --cor002:#00030df1;
     --cor003:#fbfbfb;
 }
-
-
-body{    background-image: linear-gradient(to right, #14140F,#313333,#242525);
-
-    
+body{    
+    background-image: linear-gradient(to right, #14140F,#313333,#242525);
+    overflow-x: hidden;
+   
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom:0px;
     color:var(--cor001);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -17,12 +19,11 @@ header{
     position: fixed;
     color: var(--cor001);
     background-color:var(--cor002);
-    margin-right: -8px;
-    margin-top: -20px;  
-    box-shadow: 1px 1px 10px black;
+
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
     height: 123px;
     width: 100%;
-}
+}   
 
 h1{
     margin-top: 5px;
@@ -33,6 +34,7 @@ h1{
     text-align: center;
 }
 #menu{
+    color: var(--cor001);
     margin-top: 0px;
     padding-top: 57px;
     padding-bottom: 0px;
@@ -44,13 +46,13 @@ h1{
     text-align: center;
 }
 #menu>a:hover{
-    background-color:var(--cor003);
+    background-color:var(--cor0);
     border-radius: 5px;
     display: block;
    
 }
 #logo{
-    margin-left: 0px;
+
     padding-left: 90px;
     width: 226px;
     margin-left: 32px;
@@ -82,7 +84,7 @@ nav>a:hover{
     animation-duration: 1s; 
 }
 main{
-    margin: 0px;
+
     color: var(--cor002);
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -137,19 +139,26 @@ section#img02{
 }
 
 footer{
-   
+    color: white;
+    margin-bottom: -5px;
+    margin-top: 00px;
+    padding-bottom: 3px;
+    padding-top: 2px;
     color: var(--cor001);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 
 }
+footer>p{
+    color:var(--cor003) ;
+}
 footer>p>a{
-    color: var(--cor001);
+    color: var(--cor003);
 
     text-decoration: none
 }
 footer>p>a:hover{
     
-    text-decoration: solid underline purple 3px;
+    text-decoration: solid underline rgb(128, 2, 0) 3px;
  
 }
