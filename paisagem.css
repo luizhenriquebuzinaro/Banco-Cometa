@@ -7,9 +7,8 @@
 }
 
 
-body{    background-image: linear-gradient(to right, #14140F,#313333,#242525);
-
-    
+body{    
+    background-image: linear-gradient(to right, #14140F,#313333,#242525);
     color:var(--cor001);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -34,15 +33,7 @@ h1{
     text-align: center;
 }
 #menu{
-    margin-top: 0px;
-    padding-top: 57px;
-    padding-bottom: 0px;
-    padding-left: 27px;
-    width: 56px;
-    height: 49px;
-    margin-bottom: -85px;
-    border-radius: 10px;
-    text-align: center;
+    display: none;
 }
 #menu>a:hover{
     background-color:var(--cor003);
@@ -50,8 +41,32 @@ h1{
     display: block;
    
 }
+#projetos>ul{
+    width: 400;
+    width: 400px;
+    margin-top: -94px;
+    margin-bottom: 0px;
+    padding-left: 300px;
+    list-style-type: none;
+    
+}
+ul > a {
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 200,
+  'opsz' 24
+}
+
 #logo{
-    margin-left: 0px;
+    margin-top:  32px;
+    margin-left:  -62px;
     padding-left: 90px;
     width: 226px;
     margin-left: 32px;
