@@ -18,16 +18,16 @@
             <a href="#" >Criar conta</a>
             <a href="#">Login</a>
         </nav>
-        <div id="burger">
-            <span class="material-symbols-outlined">
+        <div id="burger" >
+            <span class="material-symbols-outlined"onclick="clickMenu()">
                 menu
             </span>
         </div>
-        <nav id="projetos">
+        <nav id="itens">
             <ul>
                 <li><a href="#">projetos</a></li>
-                <li><a href="#">linkedin</a></li>
-                <li><a href="#">Guithub</a></li>
+                <li><a href="https:www.linkedin.com/in//luiz-buzinaro-cometa" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/luizhenriquebuzinaro/" target="_blank">Guithub</a></li>
             </ul>
         </nav>
       
@@ -41,6 +41,23 @@
             
         </section>
         <section class="normal">
+            <div id="ladinho">
+                <h2>
+                    tecnologias ultizadas:
+                </h2>
+                <ul>
+                        <li>
+                            HTML5
+                        </li>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            javascrip
+                        </li>
+                </ul>
+                </h2>
+            </div>
             <div>
                 
                 <ul>
@@ -53,20 +70,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="ladinho">
-                <h2>
-                    tecnologias ultizadas:
-                </h2>
-                <ul>
-                        <li>
-                            HTML5
-                        </li>
-                        <li>
-                            CSS
-                        </li>
-                </ul>
-                </h2>
-            </div>
+          
         </section>
         <section class="imagem" id="img02">
             <div>
@@ -85,6 +89,14 @@
     <footer>
         <p>&#169Crieted by <a href="https:www.linkedin.com/in/luiz-buzinaro-cometa"target="_blank">Luiz Buzinaro</a>.</p>
     </footer>
-    
+    <script>
+        function clickMenu() {
+            if( itens.style.display=='none'){
+                itens.style.display='block'
+            }else{
+                itens.style.display='none'
+            }
+        }
+    </script>
 </body>
 </html>
