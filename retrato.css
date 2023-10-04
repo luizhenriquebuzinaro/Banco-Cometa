@@ -1,4 +1,7 @@
 @charset "UTF-8";
+
+    
+
 :root{
     --cor0:#202022;
     --cor001:#D300F0;
@@ -48,10 +51,12 @@ h1{
 
 #burger:hover{
     background-color: var(--cor0);
+    cursor: pointer;
   
 
 }
 #botton-login{
+    
     width: 269px;
     padding-top: 73px;
     float: right;
@@ -66,9 +71,35 @@ h1{
     border-radius: 5px;
     display: block;}
 
+#itens > ul{
+    background-color: var(--cor002);
+    display: block;
+    height: 116vw;
+    width: 111px;
+    padding: 10px;
+}
+#itens>ul>li{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#itens a{
+    text-decoration: none;
+    color: var(--cor001);
 
-#projetos > ul{
-    display: none;
+   
+}
+#itens a:hover{
+    
+    background-color: var(--cor0);
+    margin-top: 0px;
+    padding-top: 21px;
+    padding-left: 27px;
+    margin-left: -19px;
+    padding-bottom: 22px;
+    padding-right: 49px;
+    
+
 }
 #menu{
     margin-top: 0px;
@@ -158,6 +189,9 @@ section#img01{
 section#img02{
     background-image: url('imagens/foto2.png');
 
+}
+section.normal>div{
+    margin-top: 40px;
 }
 
 footer{
